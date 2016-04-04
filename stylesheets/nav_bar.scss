@@ -1,0 +1,54 @@
+/*Navigation Bar*/
+
+
+.left_nav {
+  
+   float: left;
+   width: 18%;
+   background-color: #11171C;
+   overflow: hidden;
+
+  .search{
+    background-color: #CC4D4D;
+    padding: 30px 0 30px 0; 
+    text-align: center;
+  }
+
+  .main {
+    color: white;
+    background-color: #11171C;
+    display: block;
+    padding: 8px 8px 13px 8px;
+    line-height: 2;
+  
+    .catagories__icon {
+      float: left;
+      clear: both;
+      padding-left: 15px;
+    }
+
+    .catagories__name {
+      float: left;
+      padding-left: 15px;
+    }
+  }
+   
+
+  .movie_circles {
+    color: white;
+    background-color: #11171C;
+    padding: 8px 8px 13px 8px;
+    line-height: 2;
+    clear: both;
+  }
+
+
+  .collections {
+    color: white;
+    background-color: #11171C;
+    display: block;
+    padding: 8px 8px 13px 8px;
+    line-height: 2;
+    clear: both;
+  }
+}

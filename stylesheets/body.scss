@@ -1,0 +1,66 @@
+//Body
+
+.body {
+  width: 64%;
+  float: left;
+  background-color: white;
+
+  .header {
+    color: blue;
+    padding: 30px 0 30px 0; 
+  
+    .header__title {
+      float: left;
+      padding-left: 30px;
+      font-size: 30px;
+      color: #4C5054;
+    }
+
+    .header__release_date {
+      float: left;
+      padding-left: 100px;
+      color: #CDD3DD;
+    }
+
+    .header__populartiy {
+      float: left;
+      padding-left: 10px;
+    } 
+
+    .header__refresh_icon {
+      float: right;
+      padding-right: 30px;
+      color: #CDD3DD;
+    }
+
+    .header__recommend_icon {
+     float: right;
+     padding-right: 5px;
+     color: #CDD3DD;
+    }
+  }
+
+  .list {
+    float: left;
+    
+    .movie {
+      background-color: white;
+      width: 99px;
+      float: left;
+      margin-left: 25px;
+      margin-top: 25px;
+    }
+
+    .movie__image {
+      display: block;
+      height: 150px;
+    }
+
+    /*.movie__image--hover
+    .movie__title
+    .movie__genre
+    .movie__length
+
+    .hover__image*/
+  }
+}

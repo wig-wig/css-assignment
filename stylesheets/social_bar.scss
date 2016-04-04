@@ -1,0 +1,66 @@
+/*Social Bar*/
+
+.social_bar{
+  float: right;
+  width: 18%;
+  background-color: #ECEDEF;
+  overflow: hidden;
+
+  .social_header {
+    background-color: #74C0C8;
+    padding: 30px 0 50px 0;
+   
+  }
+  .social_header__image{
+    float: left;
+    padding-left: 15px;
+    clear: both;
+
+    .social_header__name {
+      padding-left: 10px;
+      float: left;
+    }
+
+    .social_header__status {
+      padding-right: 21px;
+      float: right;
+    }
+  }
+
+  .profile__image{
+    float: left;
+    padding-left: 10px;
+    clear: both;
+
+    .profile__name {
+      padding-left: 10px;
+      float: left;
+    }
+
+    .profile__status {
+      padding-right: 15px;
+      float: right;
+    }
+  }
+
+  .online {
+    background-color: #ECEDEF;
+    padding: 8px;
+    line-height: 2;
+  }
+
+  .offline {
+    background-color: #ECEDEF;
+    padding: 8px;
+    line-height: 2;
+    clear: both;
+  }
+
+  .chat_search {
+    background-color: #C4CCD8;
+    padding: 30px 0 30px 0; 
+    line-height: 2;
+    text-align: center;
+    clear: both;
+  }
+}
