@@ -28,7 +28,8 @@
 
 .catagory__name {
   float: left;
-  padding-left: 15px; }
+  padding-left: 12px;
+  font-size: 14px; }
 
 .movie_circles {
   color: white;
@@ -63,9 +64,10 @@
     color: blue;
     padding: 30px 0 30px 0; }
     .body .header .header__title {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       float: left;
       padding-left: 30px;
-      font-size: 30px;
+      font-size: 25px;
       color: #4C5054; }
     .body .header .header__release_date {
       float: left;
@@ -73,7 +75,8 @@
       color: #CDD3DD; }
     .body .header .header__populartiy {
       float: left;
-      padding-left: 10px; }
+      padding-left: 10px;
+      color: #74C0C8; }
     .body .header .header__refresh_icon {
       float: right;
       padding-right: 30px;
@@ -85,7 +88,6 @@
   .body .list {
     float: left;
     /*.movie__image--hover
-    .movie__title
     .movie__genre
     .movie__length
     .hover__image*/ }
@@ -97,7 +99,12 @@
       margin-top: 25px; }
     .body .list .movie__image {
       display: block;
-      height: 150px; }
+      height: 150px;
+      border-radius: 5px; }
+    .body .list .movie__title {
+      padding-top: 10px; }
+    .body .list .movie__genre {
+      color: #606C74; }
 
 /*Social Bar*/
 .social_bar {
