@@ -1,93 +1,83 @@
+.body {
+  width: 64%;
+  float: left;
+  background-color: white; }
+  .body .header {
+    color: blue;
+    padding: 30px 0 30px 0; }
+    .body .header .header__title {
+      float: left;
+      padding-left: 30px;
+      font-size: 30px;
+      color: #4C5054; }
+    .body .header .header__release_date {
+      float: left;
+      padding-left: 100px;
+      color: #CDD3DD; }
+    .body .header .header__populartiy {
+      float: left;
+      padding-left: 10px; }
+    .body .header .header__refresh_icon {
+      float: right;
+      padding-right: 30px;
+      color: #CDD3DD; }
+    .body .header .header__recommend_icon {
+      float: right;
+      padding-right: 5px;
+      color: #CDD3DD; }
+  .body .list {
+    float: left;
+    /*.movie__image--hover
+    .movie__title
+    .movie__genre
+    .movie__length
+    .hover__image*/ }
+    .body .list .movie {
+      background-color: white;
+      width: 99px;
+      float: left;
+      margin-left: 25px;
+      margin-top: 25px; }
+    .body .list .movie__image {
+      display: block;
+      height: 150px; }
+
 /*Navigation Bar*/
 .left_nav {
   float: left;
   width: 18%;
   background-color: #11171C;
   overflow: hidden; }
-
-.search {
-  background-color: #CC4D4D;
-  padding: 30px 0 30px 0;
-  text-align: center; }
-
-.main {
-  color: white;
-  background-color: #11171C;
-  display: block;
-  padding: 8px 8px 13px 8px;
-  line-height: 2; }
-
-.catagories__icon {
-  float: left;
-  clear: both;
-  padding-left: 15px; }
-
-.catagories__name {
-  float: left;
-  padding-left: 15px; }
-
-.movie_circles {
-  color: white;
-  background-color: #11171C;
-  padding: 8px 8px 13px 8px;
-  line-height: 2;
-  clear: both; }
-
-.collections {
-  color: white;
-  background-color: #11171C;
-  display: block;
-  padding: 8px 8px 13px 8px;
-  line-height: 2;
-  clear: both; }
-
-.body {
-  width: 64%;
-  float: left;
-  background-color: white; }
-
-.header {
-  color: blue;
-  padding: 30px 0 30px 0; }
-
-.header__title {
-  float: left;
-  padding-left: 30px;
-  font-size: 30px;
-  color: #4C5054; }
-
-.header__release_date {
-  float: left;
-  padding-left: 100px;
-  color: #CDD3DD; }
-
-.header__populartiy {
-  float: left;
-  padding-left: 10px; }
-
-.header__refresh_icon {
-  float: right;
-  padding-right: 30px;
-  color: #CDD3DD; }
-
-.header__recommend_icon {
-  float: right;
-  padding-right: 5px;
-  color: #CDD3DD; }
-
-.list {
-  float: left; }
-
-.movie {
-  background-color: white;
-  width: 99px;
-  float: left;
-  margin-left: 25px;
-  margin-top: 25px; }
-
-.movie__image {
-  display: block;
-  height: 150px; }
+  .left_nav .search {
+    background-color: #CC4D4D;
+    padding: 30px 0 30px 0;
+    text-align: center; }
+  .left_nav .main {
+    color: white;
+    background-color: #11171C;
+    display: block;
+    padding: 8px 8px 13px 8px;
+    line-height: 2; }
+    .left_nav .main .catagories__icon {
+      float: left;
+      clear: both;
+      padding-left: 15px; }
+    .left_nav .main .catagories__name {
+      float: left;
+      padding-left: 15px; }
+  .left_nav .movie_circles {
+    color: white;
+    background-color: #11171C;
+    padding: 8px 8px 13px 8px;
+    line-height: 2;
+    clear: both; }
+  .left_nav .collections {
+    color: white;
+    background-color: #11171C;
+    display: block;
+    padding: 8px 8px 13px 8px;
+    line-height: 2;
+    clear: both; }
 
 /*Social Bar*/
 .social_bar {
@@ -95,64 +85,71 @@
   width: 18%;
   background-color: #ECEDEF;
   overflow: hidden; }
-
-.social_header {
-  background-color: #74C0C8;
-  padding: 30px 0 50px 0; }
-
-.social_header__image {
-  float: left;
-  padding-left: 15px;
-  clear: both; }
-
-.social_header__name {
-  padding-left: 10px;
-  float: left; }
-
-.social_header__status {
-  padding-right: 21px;
-  float: right; }
-
-.profile__image {
-  float: left;
-  padding-left: 10px;
-  clear: both; }
-
-.profile__name {
-  padding-left: 10px;
-  float: left; }
-
-.profile__status {
-  padding-right: 15px;
-  float: right; }
-
-.online {
-  background-color: #ECEDEF;
-  padding: 8px;
-  line-height: 2; }
-
-.offline {
-  background-color: #ECEDEF;
-  padding: 8px;
-  line-height: 2;
-  clear: both; }
-
-.chat_search {
-  background-color: #C4CCD8;
-  padding: 30px 0 30px 0;
-  line-height: 2;
-  text-align: center;
-  clear: both; }
+  .social_bar .social_header {
+    background-color: #74C0C8;
+    padding: 30px 0 50px 0; }
+  .social_bar .social_header__image {
+    float: left;
+    padding-left: 15px;
+    clear: both; }
+    .social_bar .social_header__image .social_header__name {
+      padding-left: 10px;
+      float: left; }
+    .social_bar .social_header__image .social_header__status {
+      padding-right: 21px;
+      float: right; }
+  .social_bar .profile__image {
+    float: left;
+    padding-left: 10px;
+    clear: both; }
+    .social_bar .profile__image .profile__name {
+      padding-left: 10px;
+      float: left; }
+    .social_bar .profile__image .profile__status {
+      padding-right: 15px;
+      float: right; }
+  .social_bar .online {
+    background-color: #ECEDEF;
+    padding: 8px;
+    line-height: 2; }
+  .social_bar .offline {
+    background-color: #ECEDEF;
+    padding: 8px;
+    line-height: 2;
+    clear: both; }
+  .social_bar .chat_search {
+    background-color: #C4CCD8;
+    padding: 30px 0 30px 0;
+    line-height: 2;
+    text-align: center;
+    clear: both; }
 
 /*Site Conatiner*/
 .container {
   width: 100%; }
 
-/*.movie__image--hover
-.movie__title
-.movie__genre
-.movie__length
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga'; }
 
-.hover__image*/
+/*# sourceMappingURL=global.css.map */
 
 /*# sourceMappingURL=global.css.map */
