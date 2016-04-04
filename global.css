@@ -1,3 +1,60 @@
+/*Navigation Bar*/
+.left_nav {
+  float: left;
+  width: 18%;
+  background-color: #11171C;
+  line-height: 2.5;
+  overflow: hidden;
+  padding-bottom: 50px; }
+
+.search {
+  background-color: #CC4D4D;
+  color: white;
+  padding: 30px 0 30px 0;
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic; }
+
+.main {
+  color: white;
+  background-color: #11171C;
+  display: block;
+  padding: 8px 8px 13px 8px; }
+
+.catagory__icon {
+  float: left;
+  clear: both;
+  padding-left: 15px; }
+
+.catagory__name {
+  float: left;
+  padding-left: 15px; }
+
+.movie_circles {
+  color: white;
+  background-color: #11171C;
+  padding: 8px 8px 13px 8px;
+  clear: both; }
+
+.collections {
+  color: white;
+  background-color: #11171C;
+  display: block;
+  padding: 8px 8px 13px 8px;
+  clear: both; }
+
+.main__title {
+  padding: 8px 8px 13px 14px;
+  color: gray; }
+
+.movie_circles__title {
+  padding: 8px 8px 13px 14px;
+  color: gray; }
+
+.collections__title {
+  padding: 8px 8px 13px 14px;
+  color: gray; }
+
 .body {
   width: 64%;
   float: left;
@@ -41,43 +98,6 @@
     .body .list .movie__image {
       display: block;
       height: 150px; }
-
-/*Navigation Bar*/
-.left_nav {
-  float: left;
-  width: 18%;
-  background-color: #11171C;
-  overflow: hidden; }
-  .left_nav .search {
-    background-color: #CC4D4D;
-    padding: 30px 0 30px 0;
-    text-align: center; }
-  .left_nav .main {
-    color: white;
-    background-color: #11171C;
-    display: block;
-    padding: 8px 8px 13px 8px;
-    line-height: 2; }
-  .left_nav .movie_circles {
-    color: white;
-    background-color: #11171C;
-    padding: 8px 8px 13px 8px;
-    line-height: 2;
-    clear: both; }
-  .left_nav .collections {
-    color: white;
-    background-color: #11171C;
-    display: block;
-    padding: 8px 8px 13px 8px;
-    line-height: 2;
-    clear: both; }
-  .left_nav .catagory__icon {
-    float: left;
-    clear: both;
-    padding-left: 15px; }
-  .left_nav .catagory__name {
-    float: left;
-    padding-left: 15px; }
 
 /*Social Bar*/
 .social_bar {
