@@ -58,13 +58,6 @@
     display: block;
     padding: 8px 8px 13px 8px;
     line-height: 2; }
-    .left_nav .main .catagories__icon {
-      float: left;
-      clear: both;
-      padding-left: 15px; }
-    .left_nav .main .catagories__name {
-      float: left;
-      padding-left: 15px; }
   .left_nav .movie_circles {
     color: white;
     background-color: #11171C;
@@ -78,6 +71,13 @@
     padding: 8px 8px 13px 8px;
     line-height: 2;
     clear: both; }
+  .left_nav .catagory__icon {
+    float: left;
+    clear: both;
+    padding-left: 15px; }
+  .left_nav .catagory__name {
+    float: left;
+    padding-left: 15px; }
 
 /*Social Bar*/
 .social_bar {
@@ -127,28 +127,6 @@
 /*Site Conatiner*/
 .container {
   width: 100%; }
-
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-  /* Support for IE. */
-  font-feature-settings: 'liga'; }
 
 /*# sourceMappingURL=global.css.map */
 

@@ -20,17 +20,6 @@
     display: block;
     padding: 8px 8px 13px 8px;
     line-height: 2;
-  
-    .main__icon {
-      float: left;
-      clear: both;
-      padding-left: 15px;
-    }
-
-    .catagories__name {
-      float: left;
-      padding-left: 15px;
-    }
   }
    
 
@@ -50,5 +39,16 @@
     padding: 8px 8px 13px 8px;
     line-height: 2;
     clear: both;
+  }
+
+  .catagory__icon {
+    float: left;
+    clear: both;
+    padding-left: 15px;
+  }
+  
+  .catagory__name {
+    float: left;
+    padding-left: 15px;
   }
 }
