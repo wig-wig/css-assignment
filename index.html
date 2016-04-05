@@ -5,18 +5,23 @@
   <link rel="stylesheet" type="text/css" href="global.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
 
   <div class="container">
     
     <div class="left_nav">
-      <div class="search">Search movies...
-        <i class="material-icons">search</i>
+      
+      <div class="search">
+        <form>
+          <input type="text" class="search" placeholder="Search movies...">
+          <i class="material-icons">search</i>
+        </form>
       </div>
       
       <div class="main">
-        <div class="main__title clearfix">Main</div>
+        <div class="nav_catagory">Main</div>
         
         <div class="catagory clearfix"
           <i class="material-icons catagory__icon">play_circle_outline</i>
@@ -35,22 +40,27 @@
         
         <div class="catagory clearfix"
           <i class="material-icons catagory__icon">pages</i>
+        </div>  
+
+        <div class="catagory clearfix">
           <div class="catagory__name">New Releases</div>
         </div>
       </div>
       
       <div class="movie_circles">
-        <div class="movie_circles__title">Your Movie Circles</div>
-          
-        <i class="material-icons catagory__icon">stars</i>
-        <div class="catagory__name">This I Must See</div>
-      
+        <div class="nav_catagory">Your Movie Circles</div>
+
+        <div class="catagory clearfix"
+          <i class="material-icons catagory__icon">stars</i>
+          <div class="catagory__name">This I Must See</div>
+        </div>
+
         <i class="material-icons catagory__icon">stars</i>
         <div class="catagory__name">The Best</div>
       </div>
 
       <div class="collections">
-        <div class="collections__title">Collections</div>
+        <div class="nav_catagory">Collections</div>
           
         <i class="material-icons catagory__icon">people_outline</i>
         <div class="catagory__name">Me and Bob</div>

@@ -3,6 +3,11 @@
 @import 'social_bar';
 @import 'movie_profile';
 
+.clearfix::after {
+  content: " ";
+  clear: both;
+}
+
 /*Site Conatiner*/
 .container {
   width: 100%; 
