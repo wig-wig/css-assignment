@@ -10,7 +10,7 @@
 .search {
   background-color: #CC4D4D;
   color: white;
-  padding: 30px 0 30px 0;
+  padding: 18px 0 18px 0;
   text-align: center;
   text-decoration: underline;
   font-style: italic; }
@@ -46,110 +46,155 @@
 
 .main__title {
   padding: 8px 8px 13px 14px;
-  color: gray; }
+  color: #74C0C8; }
 
 .movie_circles__title {
   padding: 8px 8px 13px 14px;
-  color: gray; }
+  color: #74C0C8; }
 
 .collections__title {
   padding: 8px 8px 13px 14px;
-  color: gray; }
+  color: #74C0C8; }
 
 .body {
   width: 64%;
   float: left;
   background-color: white; }
-  .body .header {
-    color: blue;
-    padding: 30px 0 30px 0; }
-    .body .header .header__title {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      float: left;
-      padding-left: 30px;
-      font-size: 25px;
-      color: #4C5054; }
-    .body .header .header__release_date {
-      float: left;
-      padding-left: 100px;
-      color: #CDD3DD; }
-    .body .header .header__populartiy {
-      float: left;
-      padding-left: 10px;
-      color: #74C0C8; }
-    .body .header .header__refresh_icon {
-      float: right;
-      padding-right: 30px;
-      color: #CDD3DD; }
-    .body .header .header__recommend_icon {
-      float: right;
-      padding-right: 5px;
-      color: #CDD3DD; }
-  .body .list {
-    float: left;
-    /*.movie__image--hover
-    .movie__genre
-    .movie__length
-    .hover__image*/ }
-    .body .list .movie {
-      background-color: white;
-      width: 99px;
-      float: left;
-      margin-left: 25px;
-      margin-top: 25px; }
-    .body .list .movie__image {
-      display: block;
-      height: 150px;
-      border-radius: 5px; }
-    .body .list .movie__title {
-      padding-top: 10px; }
-    .body .list .movie__genre {
-      color: #606C74; }
 
+.header {
+  color: blue;
+  padding: 30px 0 30px 0; }
+
+.header__title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  float: left;
+  padding-left: 30px;
+  font-size: 25px;
+  color: #4C5054; }
+
+.header__release_date {
+  float: left;
+  padding-left: 100px;
+  color: #595958; }
+
+.header__populartiy {
+  float: left;
+  padding-left: 4px;
+  color: #74C0C8; }
+
+.header__refresh_icon {
+  float: right;
+  padding-right: 30px;
+  color: #595958; }
+
+.header__recommend_icon {
+  float: right;
+  padding-right: 5px;
+  color: #595958; }
+
+.list {
+  float: left; }
+
+.movie {
+  background-color: white;
+  width: 99px;
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px; }
+
+.movie.movie--hover {
+  z-index: 2;
+  background-color: gray; }
+
+.movie__image {
+  display: block;
+  height: 150px;
+  border-radius: 5px; }
+
+.movie__title {
+  padding-top: 10px;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.movie__genre {
+  color: #606C74; }
+
+.movie__length {
+  color: #606C74; }
+
+/*.movie__image--hover
+.movie__genre
+.movie__length
+.hover__image*/
 /*Social Bar*/
 .social_bar {
   float: right;
   width: 18%;
   background-color: #ECEDEF;
   overflow: hidden; }
-  .social_bar .social_header {
-    background-color: #74C0C8;
-    padding: 30px 0 50px 0; }
-  .social_bar .social_header__image {
-    float: left;
-    padding-left: 15px;
-    clear: both; }
-    .social_bar .social_header__image .social_header__name {
-      padding-left: 10px;
-      float: left; }
-    .social_bar .social_header__image .social_header__status {
-      padding-right: 21px;
-      float: right; }
-  .social_bar .profile__image {
-    float: left;
-    padding-left: 10px;
-    clear: both; }
-    .social_bar .profile__image .profile__name {
-      padding-left: 10px;
-      float: left; }
-    .social_bar .profile__image .profile__status {
-      padding-right: 15px;
-      float: right; }
-  .social_bar .online {
-    background-color: #ECEDEF;
-    padding: 8px;
-    line-height: 2; }
-  .social_bar .offline {
-    background-color: #ECEDEF;
-    padding: 8px;
-    line-height: 2;
-    clear: both; }
-  .social_bar .chat_search {
-    background-color: #C4CCD8;
-    padding: 30px 0 30px 0;
-    line-height: 2;
-    text-align: center;
-    clear: both; }
+
+.social_header {
+  background-color: #74C0C8;
+  padding: 30px 0 50px 0; }
+
+.social_header__image {
+  float: left;
+  padding-left: 18px;
+  clear: both; }
+
+.social_header__name {
+  padding-left: 10px;
+  float: left;
+  color: white; }
+
+.social_header__status {
+  padding-right: 8px;
+  float: right;
+  color: #E0901A; }
+
+.profile__status.profile__status--color {
+  color: #E0901A; }
+
+.profile__image {
+  float: left;
+  padding-left: 10px;
+  clear: both; }
+
+.profile__name {
+  padding-left: 10px;
+  float: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.profile__status {
+  padding-right: 0px;
+  float: right; }
+
+.online {
+  background-color: #ECEDEF;
+  padding: 50px 9px 9px 9px;
+  line-height: 2; }
+
+.online__title {
+  color: #CC4D4D; }
+
+.offline {
+  background-color: #ECEDEF;
+  padding: 75px 9px 9px 9px;
+  line-height: 2;
+  clear: both; }
+
+.offline__title {
+  color: #CC4D4D; }
+
+.chat_search {
+  background-color: #C4CCD8;
+  padding: 30px 0 30px 0;
+  line-height: 2;
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+  clear: both;
+  color: #ECEDEF; }
 
 /*Site Conatiner*/
 .container {

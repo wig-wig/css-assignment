@@ -5,62 +5,78 @@
   width: 18%;
   background-color: #ECEDEF;
   overflow: hidden;
+}
 
-  .social_header {
-    background-color: #74C0C8;
-    padding: 30px 0 50px 0;
-  }
+.social_header {
+  background-color: #74C0C8;
+  padding: 30px 0 50px 0;
+}
 
-  .social_header__image{
-    float: left;
-    padding-left: 15px;
-    clear: both;
+.social_header__image{
+  float: left;
+  padding-left: 18px;
+  clear: both;
+}
+.social_header__name {
+  padding-left: 10px;
+  float: left;
+  color: white;
+}
 
-    .social_header__name {
-      padding-left: 10px;
-      float: left;
-    }
+.social_header__status {
+  padding-right: 8px;
+  float: right;
+  color: #E0901A;
+}
 
-    .social_header__status {
-      padding-right: 21px;
-      float: right;
-    }
-  }
+.profile__status.profile__status--color {
+  color: #E0901A;
+}
 
-  .profile__image{
-    float: left;
-    padding-left: 10px;
-    clear: both;
+.profile__image{
+  float: left;
+  padding-left: 10px;
+  clear: both;
+}
+.profile__name {
+  padding-left: 10px;
+  float: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
-    .profile__name {
-      padding-left: 10px;
-      float: left;
-    }
+.profile__status {
+  padding-right: 0px;
+  float: right;
+}
+ 
 
-    .profile__status {
-      padding-right: 15px;
-      float: right;
-    }
-  }
+.online {
+  background-color: #ECEDEF;
+  padding: 50px 9px 9px 9px;
+  line-height: 2;
+}
 
-  .online {
-    background-color: #ECEDEF;
-    padding: 8px;
-    line-height: 2;
-  }
+.online__title {
+  color: #CC4D4D;
+}
 
-  .offline {
-    background-color: #ECEDEF;
-    padding: 8px;
-    line-height: 2;
-    clear: both;
-  }
+.offline {
+  background-color: #ECEDEF;
+  padding: 75px 9px 9px 9px;
+  line-height: 2;
+  clear: both;
+}
 
-  .chat_search {
-    background-color: #C4CCD8;
-    padding: 30px 0 30px 0; 
-    line-height: 2;
-    text-align: center;
-    clear: both;
-  }
+.offline__title {
+  color: #CC4D4D;
+}
+.chat_search {
+  background-color: #C4CCD8;
+  padding: 30px 0 30px 0; 
+  line-height: 2;
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+  clear: both;
+  color: #ECEDEF;
 }

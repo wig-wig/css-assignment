@@ -4,71 +4,83 @@
   width: 64%;
   float: left;
   background-color: white;
+}
 
-  .header {
-    color: blue;
-    padding: 30px 0 30px 0; 
-  
-    .header__title {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      float: left;
-      padding-left: 30px;
-      font-size: 25px;
-      color: #4C5054;
-    }
+.header {
+  color: blue;
+  padding: 30px 0 30px 0; 
+}
 
-    .header__release_date {
-      float: left;
-      padding-left: 100px;
-      color: #CDD3DD;
-    }
+.header__title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  float: left;
+  padding-left: 30px;
+  font-size: 25px;
+  color: #4C5054;
+}
 
-    .header__populartiy {
-      float: left;
-      padding-left: 10px;
-      color: #74C0C8;
-    } 
+.header__release_date {
+  float: left;
+  padding-left: 100px;
+  color: #595958;
+}
 
-    .header__refresh_icon {
-      float: right;
-      padding-right: 30px;
-      color: #CDD3DD;
-    }
+.header__populartiy {
+  float: left;
+  padding-left: 4px;
+  color: #74C0C8;
+} 
 
-    .header__recommend_icon {
-     float: right;
-     padding-right: 5px;
-     color: #CDD3DD;
-    }
-  }
+.header__refresh_icon {
+  float: right;
+  padding-right: 30px;
+  color: #595958;
+}
 
-  .list {
-    float: left;
-    
-    .movie {
-      background-color: white;
-      width: 99px;
-      float: left;
-      margin-left: 25px;
-      margin-top: 25px;
-    }
+.header__recommend_icon {
+ float: right;
+ padding-right: 5px;
+ color: #595958;
+}
 
-    .movie__image {
-      display: block;
-      height: 150px;
-      border-radius: 5px;
-    }
 
-    .movie__title {
-      padding-top: 10px;
-    }
+.list {
+  float: left;
+} 
+.movie {
+  background-color: white;
+  width: 99px;
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
+}
 
-    .movie__genre {
-      color: #606C74;
-    }
+
+.movie.movie--hover {
+ z-index: 2;
+ background-color: gray;
+}
+
+.movie__image {
+  display: block;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.movie__title {
+  padding-top: 10px;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.movie__genre {
+  color: #606C74;
+}
+
+.movie__length {
+  color: #606C74;
+}
     /*.movie__image--hover
     .movie__genre
     .movie__length
     .hover__image*/
-  }
-}
